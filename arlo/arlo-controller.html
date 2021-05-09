@@ -1,4 +1,4 @@
-<script type="text/x-red" data-template-name="arlo-config">
+<script type="text/x-red" data-template-name="arlo-controller">
   <div class="form-row node-controller">
     <label for="node-config-input-host"><i class="fa fa-globe"></i> Server</span></label>
     <input class="input-append-left" type="text" id="node-config-input-host" placeholder="localhost" style="width: 40%;" >
@@ -19,10 +19,10 @@
   </div>
 </script>
 
-<script type="text/x-red" data-help-name="arlo-config"></script>
+<script type="text/x-red" data-help-name="arlo-controller"></script>
 
 <script type="text/javascript">
-    RED.nodes.registerType('arlo-config', {
+    RED.nodes.registerType('arlo-controller', {
       category: 'config',
       defaults: {
           host: { value: '', required: true },

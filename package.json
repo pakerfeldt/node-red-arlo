@@ -11,7 +11,8 @@
   "main": "index.js",
   "node-red": {
     "nodes": {
-      "arlo-config": "arlo-config.js",
+      "arlo-controller": "arlo/arlo-controller.js",
+      "arlo-out": "arlo/arlo-out.js",
       "arlo": "arlo/arlo.js"
       }
   },

@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = function (RED) {
-  function ArloConfigNode (config) {
+  function ArloControllerNode (config) {
     this.node = RED.nodes.createNode(this, config)
     var _this = this
     this.host = config.host
@@ -27,7 +27,7 @@ module.exports = function (RED) {
     }
   }
 
-  RED.nodes.registerType('arlo-config', ArloConfigNode, {
+  RED.nodes.registerType('arlo-controller', ArloControllerNode, {
     credentials: {
       password: { type: 'password' }
     }
