@@ -8,8 +8,10 @@
     "type":"git",
     "url":"https://github.com/pakerfeldt/node-red-arlo.git"
   },
+  "main": "index.js",
   "node-red": {
     "nodes": {
+      "arlo-config": "arlo-config.js",
       "arlo": "arlo/arlo.js"
       }
   },
