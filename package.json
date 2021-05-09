@@ -1,0 +1,20 @@
+{
+  "name": "node-red-arlo",
+  "version": "0.1.0",
+  "description": "A Node-RED node for Arlo integration",
+  "author": "Patrik Åkerfeldt <patrik.akerfeldt@gmail.com>",
+  "keywords": [ "node-red", "arlo"],
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/pakerfeldt/node-red-arlo.git"
+  },
+  "node-red": {
+    "nodes": {
+      "arlo": "arlo/arlo.js"
+      }
+  },
+  "dependencies": {
+    "node-arlo": "~1.3.2"
+  },
+  "license": "MIT"
+}
